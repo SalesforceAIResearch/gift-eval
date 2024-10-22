@@ -20,7 +20,7 @@ pip install -e .
 
 If you want to run baselines, you can install the required dependencies as follows:
 ```
-pip install -e .[stats,deeplearning]
+pip install -e .[notebook]
 ```
 
 4. Get the train/test dataset from [huggingface]().
