@@ -29,7 +29,6 @@ pip install -e .[notebook]
 Create a `.env` file in the root directory of the project and add the following:
 ```
 GIFT_EVAL=/path/to/gift_eval/data # Required
-LIGHTNING_LOGS=/path/to/lightning/logs # Required for deeplearning models
 ```
 Replace the paths with the appropriate locations on your system.
 
