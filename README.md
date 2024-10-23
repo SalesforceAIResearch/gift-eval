@@ -2,6 +2,8 @@
 
 [Paper](https://arxiv.org/abs/2410.10393) | [Blog Post]() | [Dataset]() | [Leaderboard]()
 
+![gift eval main figure](artefacts/gifteval.png)
+
 GIFT-Eval is a comprehensive benchmark designed to evaluate general time series forecasting models across diverse datasets, promoting the advancement of zero-shot forecasting capabilities in foundation models.
 ## Installation
 1. Clone the repository and change the working directory to `GIFT_Eval`.
