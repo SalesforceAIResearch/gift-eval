@@ -60,21 +60,48 @@ The file contains the following columns:
 
 - `dataset`: The name of the dataset configuration, e.g. `electricity/15T/short`.
 - `model`: The name of the model, e.g. `naive`.
-- `runtime`: The runtime of the model, except deep learning models.
-- A column for each evaluation metric used, e.g. `MSE[mean]`, `MSE[0.5]`, etc.
+- A column for each evaluation metric used, e.g. `eval_metrics/MSE[mean]`, `eval_metrics/MSE[0.5]`, etc.
+- `domain`: The domain of the dataset, e.g. `Web/CloudOps`.
+- `num_variates`: The number of variates in the dataset, e.g. `1`.
 
-Since some datasets have frequency embedded in their names in order to keep the naming standard consistent we will use the following convention:
+The first column in the csv file is the dataset config name which is a combination of the dataset name, frequency and the term:
 ```python
-if there is no frequency embedded in the dataset name:
-    f"{dataset_name}/nan/{term}"
-else:
-    f"{dataset_name}/{freq}/{term}"
+f"{dataset_name}/{freq}/{term}"
 ```
-
 
 ## Submitting your results
 
-Submit your results to the leaderboard by creating a pull request that adds your results to the `results/<YOUR_MODEL_NAME>` folder. Your PR should contain only a folder with a single file called `all_results.csv`. 
+### Evaluation 
+
+```python
+        res = evaluate_model(
+                predictor,
+                test_data=dataset.test_data,
+                metrics=metrics,
+                batch_size=512,
+                axis=None,
+                mask_invalid_label=True,
+                allow_nan_forecast=False,
+                seasonality=season_length,
+            )
+```
+
+We highly recommend you to evaluate your model using gluonts `evaluate_model` function as it is compatible with the evaluation framework and other baselines in the leaderboard. Please refer to the sample notebooks where we show its use with statistical, deep learning and foundation models for more details. However, if you decide to evaluate your model in a different way please follow the below conventions for compatibility with the rest of the baselines in our leaderboard. Specifically:
+
+1. Aggregate results over all dimensions (following `axis=None`)
+2. Do not count `nan` values in the target towards calculation (following  `mask_invalid_label=True`).
+3. Make sure the prediction does not have `nan` values (following `allow_nan_forecast=False`).
+   
+### Submission
+Submit your results to the leaderboard by creating a pull request that adds your results to the `results/<YOUR_MODEL_NAME>` folder. Your PR should contain only a folder with two files called `all_results.csv` and `config.json`. The `config.json` file should contain the following fields:
+```json
+{
+    "model": "YOUR_MODEL_NAME",
+    "model_type": "statistical" OR "deep-learning" OR "pretrained",
+    "model_dtype": "float32", etc.
+}
+```
+The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns (one for each evaluation metric): `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
 
 ## Citation
 

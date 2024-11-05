@@ -1,0 +1,5 @@
+{
+    "model": "feedforward",
+    "model_type": "deep-learning",
+    "model_dtype": "float32"
+}
