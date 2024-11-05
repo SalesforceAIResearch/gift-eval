@@ -102,7 +102,7 @@ Submit your results to the leaderboard by creating a pull request that adds your
 }
 ```
 
-The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns (one for each evaluation metric): `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
+The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns: `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
 
 ## Citation
 
