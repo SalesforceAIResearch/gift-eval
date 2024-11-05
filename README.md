@@ -97,11 +97,12 @@ Submit your results to the leaderboard by creating a pull request that adds your
 ```json
 {
     "model": "YOUR_MODEL_NAME",
-    "model_type": "statistical" OR "deep-learning" OR "pretrained",
-    "model_dtype": "float32", etc.
+    "model_type": "one of statistical, deep-learning, or pretrained",
+    "model_dtype": "float32, etc."
 }
 ```
-The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns (one for each evaluation metric): `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
+
+The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns: `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
 
 ## Citation
 
