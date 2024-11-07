@@ -34,6 +34,7 @@ If you want to run baselines, you can install the required dependencies as follo
 ```
 pip install -e .[baseline]
 ```
+Note: The specific instructions for installing the Moirai model are available in the relevant [notebook](notebooks/moirai.ipynb).
 
 4. Get the train/test dataset from [huggingface]().
 
