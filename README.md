@@ -4,16 +4,26 @@
 
 ![gift eval main figure](artefacts/gifteval.png)
 
+| Benchmark             | Freq. Range        | Num. of Domain | Pretraining data | Num. of var. | Pred. Len. | Benchmark Methods | Prob. Forecasting |
+|-----------------------|--------------------|----------------|------------------|--------------|------------|-------------------|-------------------|
+| Monash (Godahewa et al., 2021) | Secondly ~ Yearly | 7              | No               | Uni          | Short      | Stat./DL          | No                |
+| Chronos (Ansari et al., 2024)  | Minutely ~ Yearly | 7              | Yes              | Uni          | Short      | Stat./DL/FM       | Yes               |
+| TFB (Qiu et al., 2024)         | Minutely ~ Yearly | 6              | No               | Uni/Multi    | Short      | Stat./DL          | No                |
+| LTSF (Zeng et al., 2022)       | Minutely ~ Weekly | 5              | No               | Multi        | Long       | Stat./DL          | No                |
+| BasicTS+ (Shao et al., 2023)   | Minutely ~ Daily  | 3              | No               | Multi        | Short/Long | Stat./DL          | No                |
+| GIFT-Eval (our work)           | Secondly ~ Yearly | 7              | Yes              | Uni/Multi    | Short/Long | Stat./DL/FM       | Yes               |
+
+
 GIFT-Eval is a comprehensive benchmark designed to evaluate general time series forecasting models across diverse datasets, promoting the advancement of zero-shot forecasting capabilities in foundation models.
 ## Installation
 1. Clone the repository and change the working directory to `GIFT_Eval`.
 2. Create a conda environment:
 ```
-virtualenv venv
-. venv/bin/activate
+python3 -m venv myenv
+source myenv/bin/activate
 ```
 
-3. Install required packages:
+3. Install required pamyenvckages:
 
 If you just want to explore the dataset, you can install the required dependencies as follows:
 ```
@@ -22,7 +32,7 @@ pip install -e .
 
 If you want to run baselines, you can install the required dependencies as follows:
 ```
-pip install -e .[notebook]
+pip install -e .[baseline]
 ```
 
 4. Get the train/test dataset from [huggingface]().
@@ -74,16 +84,16 @@ f"{dataset_name}/{freq}/{term}"
 ### Evaluation 
 
 ```python
-        res = evaluate_model(
-                predictor,
-                test_data=dataset.test_data,
-                metrics=metrics,
-                batch_size=512,
-                axis=None,
-                mask_invalid_label=True,
-                allow_nan_forecast=False,
-                seasonality=season_length,
-            )
+res = evaluate_model(
+        predictor,
+        test_data=dataset.test_data,
+        metrics=metrics,
+        batch_size=512,
+        axis=None,
+        mask_invalid_label=True,
+        allow_nan_forecast=False,
+        seasonality=season_length,
+    )
 ```
 
 We highly recommend you to evaluate your model using gluonts `evaluate_model` function as it is compatible with the evaluation framework and other baselines in the leaderboard. Please refer to the sample notebooks where we show its use with statistical, deep learning and foundation models for more details. However, if you decide to evaluate your model in a different way please follow the below conventions for compatibility with the rest of the baselines in our leaderboard. Specifically:
@@ -116,4 +126,4 @@ If you find this benchmark useful, please consider citing:
 }
 ```
 
-This GitHub repository is intended for research purposes only.
+This repository is intended for research purposes only.

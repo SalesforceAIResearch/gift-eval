@@ -44,7 +44,7 @@ classifiers = [
 ]
 
 [project.optional-dependencies]
-notebook = [
+baseline = [
   "torch>=2.1",
   "statsforecast",
   "tensorboard",
