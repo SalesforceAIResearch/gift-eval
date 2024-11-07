@@ -1,6 +1,6 @@
 # GIFT-EVAL: A Benchmark for General Time Series Forecasting Model Evaluation
 
-[Paper](https://arxiv.org/abs/2410.10393) | [Blog Post]() | [Dataset]() | [Leaderboard]()
+[Paper](https://arxiv.org/abs/2410.10393) | [Blog Post]() | [Dataset](https://huggingface.co/datasets/Salesforce/GiftEval) | [Leaderboard](https://huggingface.co/spaces/Salesforce/GIFT-Eval)
 
 ![gift eval main figure](artefacts/gifteval.png)
 
@@ -105,7 +105,6 @@ Submit your results to the leaderboard by creating a pull request that adds your
 The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns: `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
 
 ## Citation
-
 If you find this benchmark useful, please consider citing:
 
 ```
@@ -116,3 +115,5 @@ If you find this benchmark useful, please consider citing:
       year={2024},
 }
 ```
+
+This GitHub repository is intended for research purposes only.
