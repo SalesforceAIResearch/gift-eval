@@ -76,7 +76,7 @@ The file contains the following columns:
 - `domain`: The domain of the dataset, e.g. `Web/CloudOps`.
 - `num_variates`: The number of variates in the dataset, e.g. `1`.
 
-The first column in the csv file is the dataset config name which is a combination of the dataset name, frequency and the term:
+The first column in the csv file is the dataset config name which is a combination of the prettified dataset name, frequency and the term (The sample notebooks, e.g. [naive.ipynb](notebooks/naive.ipynb), show how to get this name, please follow the same format to align with the leaderboard.):
 ```python
 f"{dataset_name}/{freq}/{term}"
 ```
