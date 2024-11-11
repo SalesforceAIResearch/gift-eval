@@ -1,0 +1,5 @@
+{
+    "model": "timer_159B_pretrained",
+    "model_type": "pretrained",
+    "model_dtype": "float32"
+}
