@@ -1,16 +1,16 @@
-# Copyright (c) 2023, Salesforce, Inc. 
-# SPDX-License-Identifier: Apache-2 
-# 
-# Licensed under the Apache License, Version 2.0 (the "License"); 
-# you may not use this file except in compliance with the License. 
-# You may obtain a copy of the License at 
-# 
-#     http://www.apache.org/licenses/LICENSE-2.0 
-# 
-# Unless required by applicable law or agreed to in writing, software 
-# distributed under the License is distributed on an "AS IS" BASIS, 
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
-# See the License for the specific language governing permissions and 
+# Copyright (c) 2023, Salesforce, Inc.
+# SPDX-License-Identifier: Apache-2
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
 # limitations under the License.
 
 import os
@@ -54,15 +54,16 @@ PRED_LENGTH_MAP = {
 }
 
 TFB_PRED_LENGTH_MAP = {
-    "A" : 6,
-    "H" : 48,
-    "Q" : 8,
-    "D" : 14,
-    "M" : 18,
-    "W" : 13,
-    "U" : 8,
-    "T" : 8
+    "A": 6,
+    "H": 48,
+    "Q": 8,
+    "D": 14,
+    "M": 18,
+    "W": 13,
+    "U": 8,
+    "T": 8,
 }
+
 
 class Term(Enum):
     SHORT = "short"
@@ -92,11 +93,11 @@ class MultivariateToUnivariate(Transformation):
         self, data_it: Iterable[DataEntry], is_train: bool = False
     ) -> Iterator:
         for data_entry in data_it:
-            item_id = data_entry['item_id']
+            item_id = data_entry["item_id"]
             val_ls = list(data_entry[self.field])
             for id, val in enumerate(val_ls):
                 data_entry[self.field] = val
-                data_entry['item_id'] = item_id + '_dim' + str(id)
+                data_entry["item_id"] = item_id + "_dim" + str(id)
                 yield data_entry
 
 
@@ -149,9 +150,18 @@ class Dataset:
 
     @cached_property
     def past_feat_dynamic_real_dim(self) -> int:
-        if 'past_feat_dynamic_real' not in self.hf_dataset[0]:
+        if "past_feat_dynamic_real" not in self.hf_dataset[0]:
             return 0
-        elif len((past_feat_dynamic_real := self.hf_dataset[0]["past_feat_dynamic_real"]).shape) > 1:
+        elif (
+            len(
+                (
+                    past_feat_dynamic_real := self.hf_dataset[0][
+                        "past_feat_dynamic_real"
+                    ]
+                ).shape
+            )
+            > 1
+        ):
             return past_feat_dynamic_real.shape[0]
         else:
             return 1
@@ -174,7 +184,7 @@ class Dataset:
         else:
             lengths = pc.list_value_length(self.hf_dataset.data.column("target"))
         return min(lengths.to_numpy())
-    
+
     @cached_property
     def sum_series_length(self) -> int:
         if self.hf_dataset[0]["target"].ndim > 1:
