@@ -1,0 +1,5 @@
+{
+    "model": "chronos_bolt_base",
+    "model_type": "pretrained",
+    "model_dtype": "float32"
+}
