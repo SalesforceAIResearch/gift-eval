@@ -1,0 +1,6 @@
+{
+    "model": "timesfm_2_0_500m",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/google/timesfm-2.0-500m-jax"
+}
