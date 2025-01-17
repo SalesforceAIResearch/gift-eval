@@ -16,7 +16,10 @@ dependencies = [
   "hydra-core==1.3",
   "datasets~=2.17.1",
   "orjson",
-  "matplotlib~=3.9.2"
+  "matplotlib~=3.9.2",
+  "tsfeatures",
+  "ray",
+  "scipy~=1.11.3",
 ]
 requires-python = ">=3.10"
 authors = [

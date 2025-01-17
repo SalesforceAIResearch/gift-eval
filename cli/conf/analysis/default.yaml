@@ -1,0 +1,11 @@
+defaults:
+  - datasets: all_datasets
+  - _self_
+
+hydra:
+  run:
+    dir: outputs/${hydra:job.name}/${name}/${datasets.name}
+analyzer:
+  _target_: gift_eval.analysis.Analyzer
+  datasets: ${datasets.datasets}
+name: "test"

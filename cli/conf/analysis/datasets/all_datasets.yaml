@@ -1,0 +1,222 @@
+name : all_datasets
+datasets:
+  - _target_: gift_eval.data.Dataset
+    name: m4_yearly
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: m4_quarterly
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: m4_monthly
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: m4_weekly
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: m4_daily
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: m4_hourly
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: electricity/15T
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: electricity/H
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: electricity/D
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: electricity/W
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: solar/10T
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: solar/H
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: solar/D
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: solar/W
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: hospital
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: covid_deaths
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: us_births/D
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: us_births/M
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: us_births/W
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: saugeenday/D
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: saugeenday/M
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: saugeenday/W
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: temperature_rain_with_missing
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: kdd_cup_2018_with_missing/H
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: kdd_cup_2018_with_missing/D
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: car_parts_with_missing
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: restaurant
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: hierarchical_sales/D
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: hierarchical_sales/W
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: LOOP_SEATTLE/5T
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: LOOP_SEATTLE/H
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: LOOP_SEATTLE/D
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: SZ_TAXI/15T
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: SZ_TAXI/H
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: M_DENSE/H
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: M_DENSE/D
+    term: short
+    to_univariate: false
+  - _target_: gift_eval.data.Dataset
+    name: ett1/15T
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: ett1/H
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: ett1/D
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: ett1/W
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: ett2/15T
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: ett2/H
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: ett2/D
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: ett2/W
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: jena_weather/10T
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: jena_weather/H
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: jena_weather/D
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: bitbrains_fast_storage/5T
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: bitbrains_fast_storage/H
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: bitbrains_rnd/5T
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: bitbrains_rnd/H
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: bizitobs_application
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: bizitobs_service
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: bizitobs_l2c/5T
+    term: short
+    to_univariate: true
+  - _target_: gift_eval.data.Dataset
+    name: bizitobs_l2c/H
+    term: short
+    to_univariate: true

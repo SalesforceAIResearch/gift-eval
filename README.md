@@ -119,6 +119,33 @@ Submit your results to the leaderboard by creating a pull request that adds your
 
 The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns: `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
 
+## Time Series Features Analysis
+
+Add NUM_CPUS to your .env file to run the analysis in parallel.
+
+```
+echo "NUM_CPUS={N}" >> .env
+```
+
+To replicate the time series feature analysis in the paper, run the following command:
+
+```
+python -m cli.analysis datasets=all_datasets
+```
+This will run the analysis for all the datasets in the benchmark and generate two folders under `outputs/analysis/test`:
+1. `datasets`: This folder contains the individual features for each dataset along with some some plots visualizing those features.
+2. `all_datasets`: This folder contains the aggregated features for all the datasets along with some some plots visualizing those features.
+
+Note: Expect the analysis to take long, we recommend running it on a large cpu cluster and setting the `NUM_CPUS` environment variable to the number of cores you have access to.
+
+If you just want to try the analysis out you can run it with a few datasets by creating a new config file in the `cli/conf/analysis/datasets` folder. Follow the [`sample`](cli/conf/analysis/datasets/sample.yaml) file shared. 
+
+```
+python -m cli.analysis datasets=sample
+```
+
+
+
 ## Citation
 If you find this benchmark useful, please consider citing:
 
