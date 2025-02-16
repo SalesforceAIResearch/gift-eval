@@ -96,9 +96,10 @@ class MultivariateToUnivariate(Transformation):
             item_id = data_entry["item_id"]
             val_ls = list(data_entry[self.field])
             for id, val in enumerate(val_ls):
-                data_entry[self.field] = val
-                data_entry["item_id"] = item_id + "_dim" + str(id)
-                yield data_entry
+                univariate_entry = data_entry.copy()
+                univariate_entry[self.field] = val
+                univariate_entry["item_id"] = item_id + "_dim" + str(id)
+                yield univariate_entry
 
 
 class Dataset:
