@@ -24,7 +24,7 @@ python3 -m venv myenv
 source myenv/bin/activate
 ```
 
-3. Install required pamyenvckages:
+3. Install required packages:
 
 If you just want to explore the dataset, you can install the required dependencies as follows:
 ```
