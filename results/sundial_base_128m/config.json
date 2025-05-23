@@ -1,0 +1,5 @@
+{
+    "model": "sundial_base_128m",
+    "model_type": "pretrained",
+    "model_dtype": "float32"
+}
