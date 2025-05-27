@@ -1,0 +1,6 @@
+{
+    "model": "TiRex",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/NX-AI/TiRex"
+}
