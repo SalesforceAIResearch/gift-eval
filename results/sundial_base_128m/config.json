@@ -1,5 +1,6 @@
 {
     "model": "sundial_base_128m",
     "model_type": "pretrained",
-    "model_dtype": "float32"
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/thuml/sundial-base-128m"
 }
