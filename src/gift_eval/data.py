@@ -51,7 +51,6 @@ PRED_LENGTH_MAP = {
     "H": 48,
     "T": 48,
     "S": 60,
-    "h": 48,
 }
 
 TFB_PRED_LENGTH_MAP = {
@@ -84,6 +83,23 @@ class Term(Enum):
 def itemize_start(data_entry: DataEntry) -> DataEntry:
     data_entry["start"] = data_entry["start"].item()
     return data_entry
+
+
+def maybe_reconvert_freq(freq: str) -> str:
+    """if the freq is one of the newest pandas freqs, convert it to the old freq"""
+    deprecated_map = {
+        "Y": "A",
+        "YE": "A",
+        "QE": "Q",
+        "ME": "M",
+        "h": "H",
+        "min": "T",
+        "s": "S",
+        "us": "U",
+    }
+    if freq in deprecated_map:
+        return deprecated_map[freq]
+    return freq
 
 
 class MultivariateToUnivariate(Transformation):
@@ -133,6 +149,7 @@ class Dataset:
     @cached_property
     def prediction_length(self) -> int:
         freq = norm_freq_str(to_offset(self.freq).name)
+        freq = maybe_reconvert_freq(freq)
         pred_len = (
             M4_PRED_LENGTH_MAP[freq] if "m4" in self.name else PRED_LENGTH_MAP[freq]
         )
