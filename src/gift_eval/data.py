@@ -51,6 +51,7 @@ PRED_LENGTH_MAP = {
     "H": 48,
     "T": 48,
     "S": 60,
+    "h": 48,
 }
 
 TFB_PRED_LENGTH_MAP = {
