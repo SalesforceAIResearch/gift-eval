@@ -1,0 +1,7 @@
+{
+    "model": "TimeCopilot",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://github.com/AzulGarza/TimeCopilot"
+}
+
