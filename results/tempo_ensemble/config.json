@@ -1,5 +1,5 @@
 {
-    "model": "TEMPO_ensemble",
+    "model": "TEMPO_ENSEMBLE",
     "model_type": "fine-tuned",
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/Melady/TEMPO"
