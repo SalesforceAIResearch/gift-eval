@@ -3,4 +3,6 @@
     "model_type": "fine-tuned",
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/Melady/TEMPO"
+    "org": "USC Melady Lab",
+    "testdata_leakage": "Yes" 
 }
