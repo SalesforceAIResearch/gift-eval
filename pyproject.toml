@@ -8,7 +8,7 @@ dynamic = [
   "version",
 ]
 dependencies = [
-  "pandas==2.0.0",
+  "pandas>=2.0.0",
   "gluonts~=0.15.1",
   "numpy~=1.26.0",
   "einops==0.7.*",
