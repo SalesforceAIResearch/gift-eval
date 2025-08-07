@@ -2,5 +2,7 @@
     "model": "TiRex",
     "model_type": "pretrained",
     "model_dtype": "float32",
-    "model_link": "https://huggingface.co/NX-AI/TiRex"
+    "model_link": "https://huggingface.co/NX-AI/TiRex",
+    "org": "NXAI",
+    "testdata_leakage": "Yes"
 }

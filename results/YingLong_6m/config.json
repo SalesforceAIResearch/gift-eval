@@ -2,5 +2,7 @@
     "model": "YingLong_6m",
     "model_type": "pretrained",
     "model_dtype": "bf16",
-    "model_link": "https://huggingface.co/qcw2333/YingLong_6m"
+    "model_link": "https://huggingface.co/qcw2333/YingLong_6m",
+    "org": "Alibaba",
+    "testdata_leakage": "No"
 }

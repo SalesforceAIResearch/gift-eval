@@ -1,0 +1,8 @@
+{
+    "model": "TimesFM",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/google/timesfm-1.0-200m",
+    "org": "Google Research",
+    "testdata_leakage": "Yes"
+}

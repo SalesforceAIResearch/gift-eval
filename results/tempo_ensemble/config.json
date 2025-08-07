@@ -2,7 +2,6 @@
     "model": "TEMPO_ENSEMBLE",
     "model_type": "fine-tuned",
     "model_dtype": "float32",
-    "model_link": "https://huggingface.co/Melady/TEMPO"
-    "org": "USC Melady Lab",
-    "testdata_leakage": "Yes" 
-}
+    "model_link": "https://huggingface.co/Melady/TEMPO",
+    "org": "Melady Lab @ USC",
+    "testdata_leakage": "Yes"

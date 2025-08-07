@@ -2,5 +2,7 @@
     "model": "TabPFN-TS",
     "model_type": "pretrained",
     "model_dtype": "float32",
-    "model_link": "https://github.com/liam-sbhoo/tabpfn-time-series/tree/main"
+    "model_link": "https://github.com/liam-sbhoo/tabpfn-time-series/tree/main",
+    "org": "PriorLabs",
+    "testdata_leakage": "No"
 }

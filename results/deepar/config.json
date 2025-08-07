@@ -1,0 +1,7 @@
+{
+    "model": "DeepAR",
+    "model_type": "deep-learning",
+    "model_dtype": "float32",
+    "org": "Amazon Research",
+    "testdata_leakage": "No"
+}

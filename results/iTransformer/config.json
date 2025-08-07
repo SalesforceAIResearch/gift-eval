@@ -1,0 +1,7 @@
+{
+    "model": "i_transformer",
+    "model_type": "deep-learning",
+    "model_dtype": "float32",
+    "org": "Tsinghua University",
+    "testdata_leakage": "No"
+}

@@ -1,0 +1,9 @@
+{
+    "model": "Moirai_large",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/Salesforce/moirai-1.1-R-large",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/moirai.ipynb",
+    "org": "Salesforce AI Research",
+    "testdata_leakage": "No"
+}

@@ -1,0 +1,8 @@
+{
+    "model": "TTM-R2-Pretrained",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2",
+    "org": "IBM Research",
+    "testdata_leakage": "Yes"
+}

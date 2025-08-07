@@ -1,0 +1,9 @@
+{
+    "model": "TTM-R2-Finetuned",
+    "model_type": "fine-tuned",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/ibm-granite/granite-timeseries-ttm-r2",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/ttm.ipynb",
+    "org": "IBM Research",
+    "testdata_leakage": "Yes"
+}

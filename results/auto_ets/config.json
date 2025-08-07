@@ -1,0 +1,6 @@
+{
+    "model": "Auto_ETS",
+    "model_type": "statistical",
+    "model_dtype": "float32",
+    "testdata_leakage": "No"
+}

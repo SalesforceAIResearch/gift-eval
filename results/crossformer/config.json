@@ -1,0 +1,7 @@
+{
+    "model": "Crossformer",
+    "model_type": "deep-learning",
+    "model_dtype": "float32",
+    "org": "Shanghai Jiao Tong University",
+    "testdata_leakage": "No"
+}

@@ -1,0 +1,7 @@
+{
+    "model": "TIDE",
+    "model_type": "deep-learning",
+    "model_dtype": "float32",
+    "org": "Google Research",
+    "testdata_leakage": "No"
+}

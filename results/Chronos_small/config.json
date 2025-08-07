@@ -1,0 +1,9 @@
+{
+    "model": "Chronos_small",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/amazon/chronos-t5-small",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/chronos.ipynb",
+    "org": "AWS AI Labs",
+    "testdata_leakage": "Yes"
+}

@@ -1,6 +1,0 @@
-{
-    "model": "Toto",
-    "model_type": "pretrained",
-    "model_dtype": "float32",
-    "model_link": "https://huggingface.co/Datadog/Toto-Open-Base-1.0"
-}

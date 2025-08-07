@@ -1,0 +1,8 @@
+{
+    "model": "Timer",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://drive.google.com/drive/folders/15oaiAl4OO5gFqZMJD2lOtX2fxHbpgcU8",
+    "org": "THUML @ Tsinghua University",
+    "testdata_leakage": "Yes"
+}

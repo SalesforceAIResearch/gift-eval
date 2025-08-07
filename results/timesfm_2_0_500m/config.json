@@ -2,5 +2,8 @@
     "model": "timesfm_2_0_500m",
     "model_type": "pretrained",
     "model_dtype": "float32",
-    "model_link": "https://huggingface.co/google/timesfm-2.0-500m-jax"
+    "model_link": "https://huggingface.co/google/timesfm-2.0-500m-jax",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/timesfm.ipynb",
+    "org": "Google Research",
+    "testdata_leakage": "Yes"
 }
