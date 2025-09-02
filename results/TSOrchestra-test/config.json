@@ -1,8 +1,8 @@
 {
-    "model": "TSOrchestra-test",
-    "model_type": "fine-tuned",
+    "model": "TSOrchestra",
+    "model_type": "Agentic",
     "model_dtype": "float32",
-    "model_link": "https://huggingface.co/Melady/TEMPO",
+    "model_link": "https://github.com/DC-research/TSorchestra",
     "org": "Melady Lab @ USC",
-    "testdata_leakage": "Yes"
+    "testdata_leakage": "No"
 }
