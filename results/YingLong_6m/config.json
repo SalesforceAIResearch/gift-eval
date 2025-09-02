@@ -1,6 +1,6 @@
 {
     "model": "YingLong_6m",
-    "model_type": "pretrained",
+    "model_type": "zero-shot",
     "model_dtype": "bf16",
     "model_link": "https://huggingface.co/qcw2333/YingLong_6m",
     "org": "Alibaba",

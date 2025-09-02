@@ -1,0 +1,9 @@
+{
+    "model": "Moirai2",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/Salesforce/moirai-2.0-R-small",
+    "code_link": "https://github.com/SalesforceAIResearch/uni2ts",
+    "org": "Salesforce AI Research",
+    "testdata_leakage": "No"
+}

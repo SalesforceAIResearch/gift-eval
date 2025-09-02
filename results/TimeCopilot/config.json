@@ -3,6 +3,5 @@
     "model_type": "agentic",
     "model_dtype": "float32",
     "model_link": "https://github.com/AzulGarza/TimeCopilot",
-    "testdata_leakage": "Yes"
+    "testdata_leakage": "No"
 }
-
