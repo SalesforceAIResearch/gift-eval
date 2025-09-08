@@ -1,6 +1,6 @@
 {
     "model": "TSOrchestra",
-    "model_type": "Agentic",
+    "model_type": "agentic",
     "model_dtype": "float32",
     "model_link": "https://github.com/DC-research/TSorchestra",
     "org": "Melady Lab @ USC",
