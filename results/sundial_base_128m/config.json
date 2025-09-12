@@ -3,6 +3,6 @@
     "model_type": "zero-shot",
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/thuml/sundial-base-128m",
-    "org": "THUML @ Tsinghua University",
+    "org": "Tsinghua University",
     "testdata_leakage": "No"
 }
