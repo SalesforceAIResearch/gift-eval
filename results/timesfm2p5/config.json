@@ -1,0 +1,9 @@
+{
+    "model": "timesfm2p5",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/google/timesfm-2.5-200m-pytorchtimesfm-2.0-500m-jax",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/timesfm2p5.ipynb",
+    "org": "Google Research",
+    "testdata_leakage": "No"
+}
