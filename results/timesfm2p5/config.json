@@ -1,5 +1,5 @@
 {
-    "model": "timesfm2p5",
+    "model": "TimesFM-2.5",
     "model_type": "zero-shot",
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/google/timesfm-2.5-200m-pytorch",
