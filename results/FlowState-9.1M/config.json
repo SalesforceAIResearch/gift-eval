@@ -1,0 +1,9 @@
+{
+    "model": "FlowState-9.1M",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/ibm-research/flowstate",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/flowstate.ipynb",
+    "org": "IBM Research",
+    "testdata_leakage": "No"
+}
