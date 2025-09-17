@@ -1,5 +1,5 @@
 {
-    "model": "granite-timeseries-flowstate-r1",
+    "model": "granite-flowstate-r1",
     "model_type": "zero-shot",
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/ibm-granite/granite-timeseries-flowstate-r1",
