@@ -1,0 +1,7 @@
+{
+    "model": "Nexus-1.0",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "Google Cloud AI Research",
+    "testdata_leakage": "No"
+}
