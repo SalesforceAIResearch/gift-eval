@@ -1,0 +1,8 @@
+{
+    "model": "xLSTM-Mixer",
+    "model_type": "deep-learning",
+    "model_dtype": "float32",
+    "model_link": "https://github.com/mauricekraus/xlstm-mixer",
+    "org": "AIML Lab @ TU Darmstadt",
+    "testdata_leakage": "No"
+}
