@@ -1,0 +1,9 @@
+{
+    "model": "Kairos_50m",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/mldi-lab/Kairos_50m",
+    "code_link": "https://github.com/foundation-model-research/Kairos",
+    "org": "ShanghaiTech University",
+    "testdata_leakage": "No"
+}
