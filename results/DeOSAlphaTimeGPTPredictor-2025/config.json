@@ -1,0 +1,8 @@
+{
+    "model": "DeOSAlphaTimeGPTPredictor-2025",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/vencortexio/DeOSAlphaTimeGPTPredictor-2025",
+    "org": "vencortex®",
+    "testdata_leakage": "No"
+}
