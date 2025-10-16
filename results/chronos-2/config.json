@@ -4,6 +4,6 @@
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/amazon/chronos-2",
     "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/chronos-2.ipynb",
-    "org": "AWS AI Labs",
+    "org": "AWS",
     "testdata_leakage": "No"
 }
