@@ -1,0 +1,9 @@
+{
+    "model": "Xihe-max",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "To your HF model link",
+    "org": "Ant",
+    "replication_code_available": "No",
+    "testdata_leakage": "No"
+}
