@@ -42,6 +42,7 @@ M4_PRED_LENGTH_MAP = {
     "W": 13,
     "D": 14,
     "H": 48,
+    "h": 48,
 }
 
 PRED_LENGTH_MAP = {
@@ -49,19 +50,25 @@ PRED_LENGTH_MAP = {
     "W": 8,
     "D": 30,
     "H": 48,
+    "h": 48,
     "T": 48,
+    "min": 48,
     "S": 60,
+    "s": 60,
 }
 
 TFB_PRED_LENGTH_MAP = {
     "A": 6,
     "H": 48,
+    "h": 48,
     "Q": 8,
     "D": 14,
     "M": 18,
     "W": 13,
     "U": 8,
+    "us": 8,
     "T": 8,
+    "min": 8
 }
 
 
