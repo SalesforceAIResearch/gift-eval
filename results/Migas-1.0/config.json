@@ -1,0 +1,9 @@
+{
+    "model": "Migas-1.0",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "To your HF model link",
+    "org": "Synthefy",
+    "replication_code_available": "No",
+    "testdata_leakage": "No"
+}
