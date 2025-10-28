@@ -1,0 +1,10 @@
+{
+    "model": "Lingjiang",
+    "model_type": "zero-shot",
+    "model_dtype": "bf16",
+    "model_link": "",
+    "code_link": "",
+    "org": "Alibaba Cloud",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
