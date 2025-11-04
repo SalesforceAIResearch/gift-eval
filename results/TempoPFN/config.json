@@ -3,7 +3,7 @@
     "model_type": "zero-shot",
     "model_dtype": "bfloat16",
     "model_link": "https://github.com/automl/TempoPFN",
-    "code_link": "https://github.com/automl/TempoPFN",
+    "code_link": "https://github.com/automl/TempoPFN/blob/main/examples/gift_eval/gift_eval_submission.ipynb",
     "org": "University of Freiburg",
     "testdata_leakage": "No",
     "replication_code_available": "Yes"
