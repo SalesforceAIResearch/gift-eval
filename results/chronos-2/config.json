@@ -2,7 +2,7 @@
     "model": "Chronos-2",
     "model_type": "pretrained",
     "model_dtype": "float32",
-    "model_link": "https://github.com/amazon-science/chronos-forecasting",
+    "model_link": "https://huggingface.co/amazon/chronos-2",
     "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/chronos-2.ipynb",
     "org": "AWS",
     "testdata_leakage": "No",
