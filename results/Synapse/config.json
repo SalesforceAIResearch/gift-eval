@@ -2,7 +2,7 @@
     "model": "Synapse",
     "model_type": "agentic",
     "model_dtype": "float32",
-    "model_link": "https://arxiv.org/abs/2511.05460"
+    "model_link": "https://arxiv.org/abs/2511.05460",
     "org": "Google Cloud AI Research",
     "testdata_leakage": "No",
     "replication_code_available": "No"
