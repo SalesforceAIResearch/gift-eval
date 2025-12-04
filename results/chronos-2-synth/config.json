@@ -1,0 +1,10 @@
+{
+    "model": "Chronos-2-Synth",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/autogluon/chronos-2-synth",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/chronos-2.ipynb",
+    "org": "AWS",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
