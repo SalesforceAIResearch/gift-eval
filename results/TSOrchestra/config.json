@@ -3,6 +3,7 @@
     "model_type": "agentic",
     "model_dtype": "float32",
     "model_link": "https://github.com/DC-research/TSorchestra",
+    "code_link": "https://github.com/DC-research/TSorchestra/blob/main/cli/eval.sh",
     "org": "Melady Lab @ USC",
     "testdata_leakage": "No",
     "replication_code_available": "No"
