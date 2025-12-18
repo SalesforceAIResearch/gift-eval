@@ -1,0 +1,8 @@
+{
+    "model": "Samay",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "Kairosity",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
