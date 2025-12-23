@@ -1,0 +1,9 @@
+{
+    "model": "MoiraiAgent",
+    "model_type": "agentic",
+    "model_dtype": "bf16",
+    "model_link": "N/A",
+    "org": "Salesforce AI Research",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
