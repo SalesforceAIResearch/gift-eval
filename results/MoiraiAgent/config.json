@@ -2,8 +2,8 @@
     "model": "MoiraiAgent",
     "model_type": "agentic",
     "model_dtype": "bf16",
-    "model_link": "N/A",
+    "model_link": "https://huggingface.co/Salesforce/moirai-agent",
     "org": "Salesforce AI Research",
     "testdata_leakage": "No",
-    "replication_code_available": "No"
+    "replication_code_available": "Yes"
 }
