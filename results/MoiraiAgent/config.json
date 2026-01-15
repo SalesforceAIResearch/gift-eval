@@ -3,6 +3,7 @@
     "model_type": "agentic",
     "model_dtype": "bf16",
     "model_link": "https://huggingface.co/Salesforce/moirai-agent",
+    "code_link": "https://github.com/SalesforceAIResearch/uni2ts/tree/main/project/moirai-agent/gift_eval",
     "org": "Salesforce AI Research",
     "testdata_leakage": "No",
     "replication_code_available": "Yes"
