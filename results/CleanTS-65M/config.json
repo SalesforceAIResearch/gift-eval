@@ -1,0 +1,10 @@
+{
+    "model": "CleanTS-65M",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/EINK/CleanTS-65M",
+    "code_link": "xx",
+    "org": "Shandong University",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
