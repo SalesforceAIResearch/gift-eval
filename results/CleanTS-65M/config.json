@@ -3,7 +3,7 @@
     "model_type": "zero-shot",
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/EINK/CleanTS-65M",
-    "code_link": "xx",
+    "code_link": "https://github.com/Taihuachen-cfair/gift-eval/blob/main/notebooks/CleanTS.ipynb",
     "org": "Shandong University",
     "testdata_leakage": "No",
     "replication_code_available": "Yes"
