@@ -1,0 +1,10 @@
+{
+    "model": "ABR-small",
+    "model_type": "deep-learning",
+    "model_dtype": "float32",
+    "model_link": "N/A",
+    "code_link": "N/A",
+    "org": "Amazon Web Services",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
