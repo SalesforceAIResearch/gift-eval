@@ -1,0 +1,10 @@
+{
+    "model": "Credence",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "ContinualIST",
+    "model_link": "https://app.credence.continualist.ai",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/Credence.ipynb",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}

@@ -1,9 +1,0 @@
-{
-    "model": "Kairos-1.0",
-    "model_type": "agentic",
-    "model_dtype": "float32",
-    "org": "ContinualIST",
-    "model_link": "https://www.continualist.ai",
-    "testdata_leakage": "No",
-    "replication_code_available": "No"
-}
