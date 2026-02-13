@@ -1,0 +1,10 @@
+{
+    "model": "PatchTST-FM-r1",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/ibm-research/patchtst-fm-r1",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/patchtst_fm.ipynb",
+    "org": "IBM TSFM & Rensselaer Polytechnic Institute",
+    "replication_code_available": "Yes",
+    "testdata_leakage": "No"
+}
