@@ -1,0 +1,10 @@
+{
+    "model": "Reverso-Small",
+    "model_type": "zero-shot",
+    "model_dtype": "bfloat16",
+    "model_link": "https://huggingface.co/shinfxh/reverso/tree/main/checkpoints/reverso_small",
+    "code_link": "https://github.com/shinfxh/reverso/blob/main/example/eval_gift.py",
+    "org": "MIT",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
