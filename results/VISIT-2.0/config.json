@@ -1,0 +1,7 @@
+{
+    "model": "VISIT-2.0",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
