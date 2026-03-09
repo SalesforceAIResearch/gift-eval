@@ -1,7 +1,7 @@
 {
     "model": "Timer-S1",
     "model_type": "pretrained",
-    "model_dtype": "float32",
+    "model_dtype": "bf16",
     "org": "Tsinghua University & ByteDance",
     "testdata_leakage": "No",
     "replication_code_available": "Yes"
