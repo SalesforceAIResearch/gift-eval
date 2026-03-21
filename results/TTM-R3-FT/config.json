@@ -1,0 +1,10 @@
+{
+    "model": "TTM-R3-FT",
+    "model_type": "fine-tuned",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/ibm-research/ttm-r3",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/ttm_r3.ipynb",
+    "org": "IBM TSFM",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
