@@ -1,0 +1,10 @@
+{
+    "model": "FLAIR",
+    "model_type": "statistical",
+    "model_dtype": "float64",
+    "model_link": "",
+    "code_link": "",
+    "org": "Mellon Inc.",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
