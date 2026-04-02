@@ -2,9 +2,9 @@
     "model": "FLAIR",
     "model_type": "statistical",
     "model_dtype": "float64",
-    "model_link": "",
-    "code_link": "",
+    "model_link": "https://github.com/TakatoHonda/FLAIR",
+    "code_link": "https://github.com/TakatoHonda/FLAIR",
     "org": "Mellon Inc.",
     "testdata_leakage": "No",
-    "replication_code_available": "No"
+    "replication_code_available": "Yes"
 }
