@@ -1,0 +1,8 @@
+{
+    "model": "ZooCast-Top1",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "code_link": "https://anonymous.4open.science/r/ZooCast-ICML-CD31/",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
