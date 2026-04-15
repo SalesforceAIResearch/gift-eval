@@ -1,0 +1,10 @@
+{
+    "model": "Toto-2.0-4m",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/Datadog/Toto-2.0-4m",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/toto_2_0.ipynb",
+    "org": "Datadog",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
