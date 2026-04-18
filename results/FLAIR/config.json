@@ -4,7 +4,7 @@
     "model_dtype": "float64",
     "model_link": "https://github.com/TakatoHonda/FLAIR",
     "code_link": "https://github.com/TakatoHonda/FLAIR/blob/main/examples/gift_eval_reproduction.py",
-    "org": "",
+    "org": "Mellon Inc.",
     "testdata_leakage": "No",
     "replication_code_available": "Yes"
 }
