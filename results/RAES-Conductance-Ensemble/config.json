@@ -5,6 +5,6 @@
     "model_link": "https://github.com/AriGoldbach/raes-gift-eval",
     "code_link": "https://github.com/AriGoldbach/raes-gift-eval",
     "org": "California State University Northridge",
-    "testdata_leakage": "No",
+    "testdata_leakage": "Yes",
     "replication_code_available": "Yes"
 }
