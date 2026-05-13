@@ -1,0 +1,10 @@
+{
+  "model": "Toto-2.0-FnF",
+  "model_type": "agentic",
+  "model_dtype": "float32",
+  "model_link": "https://huggingface.co/Datadog/Toto-2.0-Family-and-Friends",
+  "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/toto_2_0_fnf.ipynb",
+  "org": "Datadog",
+  "testdata_leakage": "No",
+  "replication_code_available": "Yes"
+}
