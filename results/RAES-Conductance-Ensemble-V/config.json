@@ -2,8 +2,8 @@
     "model": "RAES-Conductance-Ensemble-V",
     "model_type": "agentic",
     "model_dtype": "float32",
-    "model_link": "https://github.com/AriGoldbach/raes-gift-eval",
-    "code_link": "https://github.com/AriGoldbach/raes-gift-eval",
+    "model_link": "https://github.com/AriGoldbach/raes-conductance-v",
+    "code_link": "https://github.com/AriGoldbach/raes-conductance-v",
     "org": "SETI",
     "testdata_leakage": "No",
     "replication_code_available": "Yes"
