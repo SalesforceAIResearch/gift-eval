@@ -33,6 +33,8 @@ def infer_period(freq):
     elif freq.isalnum():
         pattern = r"(\d+)([a-zA-Z]+)"
         match = re.match(pattern, freq)
+        if match is None:
+            raise ValueError(f"Frequency {freq} not recognized")
         repeat_count, freq_str = match.groups()
         return max(PERIODS[freq_str]//int(repeat_count), 1)
     else:
