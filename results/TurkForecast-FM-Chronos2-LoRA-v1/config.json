@@ -1,0 +1,10 @@
+{
+    "model": "TurkForecast-FM-Chronos2-LoRA-v1",
+    "model_type": "fine-tuned",
+    "model_dtype": "bfloat16",
+    "model_link": "https://huggingface.co/Verm1ion/turkforecast-fm-chronos2-lora-v1",
+    "code_link": "https://github.com/Verm1lion/turkforecast-fm-chronos2-lora-v1",
+    "org": "TurkForecast (Mert Karatay)",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
