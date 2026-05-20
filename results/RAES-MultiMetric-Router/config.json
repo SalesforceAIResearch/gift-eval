@@ -1,0 +1,10 @@
+{
+    "model": "RAES-MultiMetric-Router",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "",
+    "code_link": "https://github.com/AriGoldbach/raes-multimetric-router",
+    "org": "SETI",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
