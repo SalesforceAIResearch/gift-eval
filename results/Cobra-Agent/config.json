@@ -1,0 +1,10 @@
+{
+    "model": "Cobra-Agent",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/dalpha-ai/Cobra-Agent",
+    "code_link": "",
+    "org": "Dalpha AI",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
