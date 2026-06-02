@@ -1,0 +1,10 @@
+{
+    "model": "Super-Linear",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/SequentialLearning/SuperLinear",
+    "code_link": "https://github.com/azencot-group/SuperLinear/blob/main/gift-eval/notebooks/super_linear.ipynb",
+    "org": "Ben-Gurion University of the Negev",
+    "testdata_leakage": "Yes",
+    "replication_code_available": "Yes"
+}
