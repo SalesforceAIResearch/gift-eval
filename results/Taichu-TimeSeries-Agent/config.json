@@ -1,0 +1,10 @@
+{
+  "model": "Taichu-TimeSeries-Agent",
+  "model_type": "agentic",
+  "model_dtype": "bfloat16",
+  "model_link": "None",
+  "code_link": "None",
+  "org": "zidongtaichu",
+  "testdata_leakage": "No",
+  "replication_code_available": "No"
+}
