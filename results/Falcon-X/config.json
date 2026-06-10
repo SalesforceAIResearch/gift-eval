@@ -1,0 +1,10 @@
+{
+    "model": "Falcon-X",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://github.com/ant-intl/Falcon-TST/tree/main/falconx",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/falconx.ipynb",
+    "org": "ant-intl",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
