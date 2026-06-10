@@ -1,0 +1,10 @@
+{
+    "model": "Prism",
+    "model_type": "agentic",
+    "model_dtype": "bfloat16",
+    "model_link": "https://github.com/kudhru/gift-eval-prism",
+    "code_link": "https://github.com/kudhru/gift-eval-prism",
+    "org": "BITS Pilani",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
