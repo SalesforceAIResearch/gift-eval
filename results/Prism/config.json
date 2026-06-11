@@ -2,9 +2,9 @@
     "model": "Prism",
     "model_type": "agentic",
     "model_dtype": "bfloat16",
-    "model_link": "https://github.com/kudhru/gift-eval-prism",
-    "code_link": "https://github.com/kudhru/gift-eval-prism",
-    "org": "BITS Pilani",
+    "model_link": "",
+    "code_link": "",
+    "org": "Birla AI Labs",
     "testdata_leakage": "No",
-    "replication_code_available": "Yes"
+    "replication_code_available": "No"
 }
