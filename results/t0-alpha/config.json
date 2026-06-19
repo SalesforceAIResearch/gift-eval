@@ -1,0 +1,10 @@
+{
+    "model": "t0-alpha",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/theforecastingcompany/t0-alpha",
+    "code_link": "https://github.com/theforecastingcompany/tfc-t0/blob/main/notebooks/t0-alpha.ipynb",
+    "org": "The Forecasting Company",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
