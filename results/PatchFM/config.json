@@ -1,0 +1,12 @@
+{
+    "model": "PatchFM",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/vilhess/PatchFM",
+    "code_link":"https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/patchfm.ipynb",
+    "org": "LITIS",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
+
+
