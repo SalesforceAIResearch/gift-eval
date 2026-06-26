@@ -1,0 +1,10 @@
+{
+  "model": "metis-autocast",
+  "model_type": "agentic",
+  "model_dtype": "mixed",
+  "model_link": "https://metiscast.com/agent",
+  "org": "Metis",
+  "testdata_leakage": "No",
+  "replication_code_available": "No",
+  "code_link": ""
+}
