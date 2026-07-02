@@ -1,0 +1,10 @@
+{
+    "model": "CHARM",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/c3aiia3c/CHARM",
+    "code_link": "https://huggingface.co/c3aiia3c/CHARM",
+    "org": "C3 AI",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
