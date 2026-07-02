@@ -1,0 +1,10 @@
+{
+  "model": "CastStar",
+  "model_type": "agentic",
+  "model_dtype": "float32",
+  "model_link": "https://huggingface.co/USTC-AGI/CastStar",
+  "code_link": "https://github.com/ustc-time-series/CastStar",
+  "org": "CastStar",
+  "testdata_leakage": "No",
+  "replication_code_available": "No"
+}
