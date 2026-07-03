@@ -1,5 +1,5 @@
 {
-    "model": "TiRex-2",
+    "model": "TiRex-2-Zeroshot",
     "model_type": "zero-shot",
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/NX-AI/TiRex-2-gifteval-zs",
