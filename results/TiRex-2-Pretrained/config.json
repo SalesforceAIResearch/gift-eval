@@ -3,6 +3,7 @@
     "model_type": "pretrained",
     "model_dtype": "float32",
     "model_link": "https://huggingface.co/NX-AI/TiRex-2-gifteval-zs",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/tirex-2.ipynb",
     "org": "NXAI",
     "testdata_leakage": "No",
     "replication_code_available": "Yes"
