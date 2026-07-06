@@ -2,9 +2,9 @@
   "model": "CastStar",
   "model_type": "agentic",
   "model_dtype": "float32",
-  "model_link": "https://huggingface.co/CastStar/CastStar",
-  "code_link": "https://github.com/ustc-time-series/CastStar",
+  "model_link": "https://huggingface.co/USTC-AGI/CastStar",
+  "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/caststar.ipynb",
   "org": "USTC-AGI",
   "testdata_leakage": "No",
-  "replication_code_available": "No"
+  "replication_code_available": "Yes"
 }
