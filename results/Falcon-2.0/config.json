@@ -1,0 +1,10 @@
+{
+    "model": "Falcon-2.0",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://github.com/ant-intl/Falcon-TST",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/falcon-2.ipynb",
+    "org": "ant-intl",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
