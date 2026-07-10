@@ -1,0 +1,8 @@
+{
+    "model": "Falcon-Agent",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "ant-intl",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
