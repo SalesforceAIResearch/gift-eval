@@ -1,0 +1,8 @@
+{
+    "model": "HistRoute-CV",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "Hitsz iLearn-ML",
+    "replication_code_available": "No",
+    "testdata_leakage": "No"
+}
