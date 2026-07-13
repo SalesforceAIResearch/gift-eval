@@ -1,0 +1,10 @@
+{
+    "model": "LiteSpecFormer",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/FlowVortex/LiteSpecFormer-1.0-36M",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/litespecformer.ipynb",
+    "org": "FlowVortex (Xidian University)",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
