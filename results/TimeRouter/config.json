@@ -1,0 +1,10 @@
+{
+    "model": "TimeRouter",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/nkh/timerouter-v1",
+    "code_link": "https://github.com/UConn-DSIS/TimeRouter",
+    "org": "UConn & Morgan Stanley",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}

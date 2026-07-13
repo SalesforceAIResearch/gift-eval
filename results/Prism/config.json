@@ -2,7 +2,7 @@
     "model": "Prism",
     "model_type": "agentic",
     "model_dtype": "bfloat16",
-    "model_link": "",
+    "model_link": "https://huggingface.co/birlaailabs/Prism",
     "code_link": "",
     "org": "Birla AI Labs",
     "testdata_leakage": "No",

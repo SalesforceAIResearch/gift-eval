@@ -1,0 +1,10 @@
+{
+  "model": "ValBestSingle-cmtt",
+  "model_type": "agentic",
+  "model_dtype": "float32",
+  "model_link": "https://huggingface.co/amazon/chronos-2",
+  "code_link": "N/A",
+  "org": "G-connor",
+  "testdata_leakage": "No",
+  "replication_code_available": "No"
+}
