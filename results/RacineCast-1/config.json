@@ -1,0 +1,10 @@
+{
+  "model": "RacineCast-1",
+  "model_type": "agentic",
+  "model_dtype": "float32",
+  "model_link": "https://huggingface.co/racineai/RacineCast-1",
+  "code_link": "https://huggingface.co/racineai/RacineCast-1",
+  "org": "Racine.ai",
+  "testdata_leakage": "No",
+  "replication_code_available": "Yes"
+}
