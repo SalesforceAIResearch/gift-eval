@@ -4,7 +4,7 @@
     "model_dtype": "float32",
     "model_link": "",
     "code_link": "",
-    "org": "Park in Seoul",
+    "org": "LAIR",
     "testdata_leakage": "No",
     "replication_code_available": "No"
 }
