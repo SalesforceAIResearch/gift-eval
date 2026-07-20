@@ -1,0 +1,10 @@
+{
+    "model": "EFG-base",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "",
+    "code_link": "",
+    "org": "LAIR",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
