@@ -2,8 +2,8 @@
   "model": "Metamorph1.0",
   "model_type": "pretrained",
   "model_dtype": "bfloat16",
-  "model_link": "https://huggingface.co/<you>/<model-repo>",
-  "code_link": "https://github.com/<you>/<replication-code>",
+  "model_link": "",
+  "code_link": "",
   "org": "SRI International",
   "testdata_leakage": "No",
   "replication_code_available": "No"
