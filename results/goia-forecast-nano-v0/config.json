@@ -1,0 +1,10 @@
+{
+    "model": "goia-forecast-nano-v0",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/gredio/goia-forecast-nano-v0",
+    "code_link": "https://github.com/gredio/goia-forecast",
+    "org": "Gredio",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
