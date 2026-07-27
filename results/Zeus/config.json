@@ -1,0 +1,10 @@
+{
+    "model": "Zeus",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/GestaltCog/zeus",
+    "code_link": "https://github.com/GestaltCogTeam/Zeus",
+    "org": "GestaltCog Lab @ ICT",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
