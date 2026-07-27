@@ -1,0 +1,7 @@
+{
+  "model": "limix_moe",
+  "model_type": "agentic",
+  "model_dtype": "float32",
+  "testdata_leakage": "No",
+  "replication_code_available": "No"
+}
