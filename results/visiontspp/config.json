@@ -1,0 +1,8 @@
+{
+    "model": "VisionTSpp",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/Lefei/VisionTSpp",
+    "org": "Zhejiang University",
+    "testdata_leakage": "No"
+}
