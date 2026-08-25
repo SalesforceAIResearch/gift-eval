@@ -1,0 +1,8 @@
+{
+    "model": "RegLab-AH-1",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "Regime Labs",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
