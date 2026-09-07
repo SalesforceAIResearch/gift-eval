@@ -151,11 +151,20 @@ Submit your results to the leaderboard by creating a pull request that adds your
   - `statistical`: Traditional time series models such as ARIMA, ETS, etc.  
   - `deep-learning`: Neural network models trained from scratch.  
   - `agentic`: Multi-step systems that use agents or LLMs to reason, generate or select forecasts.  
-  - `pretrained`: Foundation models trained once on large-scale data and applied as-is to each dataset.
-  - `zero-shot`: A specific version of pretrained models whose pretraining data has no common datasets with GiftEval test data pool. 
-  - `fine-tuned`: A specific version of pretrained models that begin from a pretrained base but are further finetuned an individual model on each dataset.
-  
-  > **Note:** The key difference between `pretrained` and `fine-tuned` is that fine-tuned models are adapted separately to each dataset using supervision, whereas pretrained models are used without per-dataset tuning.
+  - `pretrained`: Foundation models trained once on large-scale data and applied as-is
+    to each dataset. The pretraining corpus may include GIFT-Eval train splits.
+  - `zero-shot`: A specific version of pretrained models whose pretraining data has no
+    common datasets with GiftEval data pool (both train and test).
+  - `fine-tuned`: Models that start from a completed pretrained checkpoint and undergo a
+    further training stage using GIFT-Eval train/validation data. This covers both
+    per-dataset fine-tuning (a separate training job and set of weights for each of the
+    97 tasks) and continual pretraining (a single additional training run whose data mix
+    includes GIFT-Eval train splits, producing one checkpoint applied to all tasks).
+
+  > **Note:** The key difference between `pretrained` and `fine-tuned` is the presence of a
+  > separate training stage with GIFT-Eval train/validation data on top of an already-complete base checkpoint. A model whose
+  > single pretraining run happens to include GIFT-Eval train data is `pretrained`; a model
+  > that takes a finished checkpoint and trains it further on GIFT-Eval data is `fine-tuned`.
 
   > **Note:** For a model to be tagged as `zero-shot` it should satisfy two requirements:
   >  1.  Do not leak test data, and
