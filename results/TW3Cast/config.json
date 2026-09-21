@@ -1,6 +1,6 @@
 {
  "model": "TW3Cast",
- "model_type": "fine-tuned",
+ "model_type": "agentic",
  "testdata_leakage": "No",
  "model_dtype": "float32",
  "model_link": "https://github.com/TW3-Partners-OS/TW3-Cast",
