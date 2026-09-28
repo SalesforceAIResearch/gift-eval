@@ -1,7 +1,7 @@
 {
     "model": "Tabby-Pretrain",
     "model_type": "pretrained",
-    "model_dtype": "float32",
+    "model_dtype": "bfloat16",
     "model_link": "https://huggingface.co/paris-noah/Tabby-Pretrain",
     "code_link": "https://github.com/huawei-noah/trustworthyAI/tree/master/TabbyTSFM/benchmarks/forecasting/gift_eval",
     "org": "Huawei Noah's Ark Lab",
