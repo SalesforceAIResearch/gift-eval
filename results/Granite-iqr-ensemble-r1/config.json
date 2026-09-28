@@ -1,0 +1,10 @@
+{
+    "model": "Granite-IQR-Ensemble-r1",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "",
+    "code_link": "gift-eval/notebooks/granite-timeseries-iqr-ensemble-r1.ipynb",
+    "org": "IBM TSFM",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
