@@ -1,0 +1,10 @@
+{
+    "model": "Fracast-0",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/ztxtech/fracast-0",
+    "code_link": "https://github.com/ztxtech/fracast-0/blob/main/script/gift_eval/evaluate.py",
+    "org": "ztxtech",
+    "testdata_leakage": "Yes",
+    "replication_code_available": "Yes"
+}
