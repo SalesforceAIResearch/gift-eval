@@ -1,0 +1,10 @@
+{
+    "model": "QiYao-M",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/DecisionIntelligence/QiYao-M",
+    "code_link": "",
+    "org": "ECNU & Huawei Technologies Co., Ltd.",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
