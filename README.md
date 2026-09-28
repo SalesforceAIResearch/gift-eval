@@ -60,7 +60,7 @@ Note: The specific instructions for installing the [Moirai](notebooks/moirai.ipy
 4. Get the train/test dataset from [huggingface](https://huggingface.co/datasets/Salesforce/GiftEval).
 
 ```
-huggingface-cli download Salesforce/GiftEval --repo-type=dataset --local-dir PATH_TO_SAVE
+hf download Salesforce/GiftEval --repo-type=dataset --local-dir PATH_TO_SAVE
 ```
 
 5. Set up the environment variables and add the path to the data:
