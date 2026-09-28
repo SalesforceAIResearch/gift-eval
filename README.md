@@ -88,7 +88,7 @@ We provide examples of how to run the statistical, deep learning, and foundation
 Each of these notebooks will generate a csv file called `all_results.csv` under the `results/<MODEL_NAME>` folder containing the results for your model on the gift-eval benchmark. Regardless of the model you choose and how you run it, you can submit your results to the leaderboard by following the instructions in the [Submitting your results](#submitting-your-results) section.
 
 ### Sample output file
-A sample output file is located at `results/naive/all_results.csv`.
+A sample output file is located at `results/Naive/all_results.csv`.
 
 The file contains the following columns:
 
@@ -193,7 +193,26 @@ Submit your results to the leaderboard by creating a pull request that adds your
 - **`replication_code_available`**:
   Indicates whether the evaluation code is made available to the public by the submission author. The preferable way to share the evaluation code is to share a notebook in the GIFT-Eval github repository (as many previous submissions have done), but a standalone repo for the evaluation code is also acceptable as long as it is accessible to the public and the link is provided in the config.json file through `code_link`.
 
-The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns: `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
+The final `all_results.csv` file should contain `98` lines (`1` header and `97`
+dataset configurations) and exactly `15` columns: `4` for dataset, model, domain
+and num_variates and `11` for the evaluation metrics.
+
+Before opening a pull request, validate your submission from the repository root:
+
+```bash
+python scripts/validate_results.py results/<YOUR_MODEL_NAME>
+```
+
+Maintainers can validate every committed submission with:
+
+```bash
+pytest -q tests/test_validate_results.py
+```
+
+The validator checks the required files and config fields, documented config
+labels, CSV shape and columns, the complete set of dataset configurations and
+their domain/num_variates metadata, present metric values, and that
+`<YOUR_MODEL_NAME>` matches the model in `config.json` and every CSV row.
 
 ## Time Series Features Analysis
 
