@@ -1,0 +1,10 @@
+{
+    "model": "TinyCast",
+    "model_type": "zero-shot",
+    "model_dtype": "bfloat16",
+    "model_link": "https://huggingface.co/raws-labs/tinycast",
+    "code_link": "https://github.com/raws-labs/tinycast/blob/main/tinycast/eval.py",
+    "org": "RAWS Labs",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}

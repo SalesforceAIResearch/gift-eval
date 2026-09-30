@@ -2,7 +2,7 @@
   "model": "CastStar",
   "model_type": "agentic",
   "model_dtype": "float32",
-  "model_link": "https://huggingface.co/USTC-AGI/CastStar",
+  "model_link": "https://arxiv.org/abs/2602.01776",
   "org": "USTC-AGI",
   "testdata_leakage": "No",
   "replication_code_available": "No"

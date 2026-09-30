@@ -60,7 +60,7 @@ Note: The specific instructions for installing the [Moirai](notebooks/moirai.ipy
 4. Get the train/test dataset from [huggingface](https://huggingface.co/datasets/Salesforce/GiftEval).
 
 ```
-huggingface-cli download Salesforce/GiftEval --repo-type=dataset --local-dir PATH_TO_SAVE
+hf download Salesforce/GiftEval --repo-type=dataset --local-dir PATH_TO_SAVE
 ```
 
 5. Set up the environment variables and add the path to the data:
@@ -88,7 +88,7 @@ We provide examples of how to run the statistical, deep learning, and foundation
 Each of these notebooks will generate a csv file called `all_results.csv` under the `results/<MODEL_NAME>` folder containing the results for your model on the gift-eval benchmark. Regardless of the model you choose and how you run it, you can submit your results to the leaderboard by following the instructions in the [Submitting your results](#submitting-your-results) section.
 
 ### Sample output file
-A sample output file is located at `results/naive/all_results.csv`.
+A sample output file is located at `results/Naive/all_results.csv`.
 
 The file contains the following columns:
 
@@ -151,11 +151,20 @@ Submit your results to the leaderboard by creating a pull request that adds your
   - `statistical`: Traditional time series models such as ARIMA, ETS, etc.  
   - `deep-learning`: Neural network models trained from scratch.  
   - `agentic`: Multi-step systems that use agents or LLMs to reason, generate or select forecasts.  
-  - `pretrained`: Foundation models trained once on large-scale data and applied as-is to each dataset.
-  - `zero-shot`: A specific version of pretrained models whose pretraining data has no common datasets with GiftEval test data pool. 
-  - `fine-tuned`: A specific version of pretrained models that begin from a pretrained base but are further finetuned an individual model on each dataset.
-  
-  > **Note:** The key difference between `pretrained` and `fine-tuned` is that fine-tuned models are adapted separately to each dataset using supervision, whereas pretrained models are used without per-dataset tuning.
+  - `pretrained`: Foundation models trained once on large-scale data and applied as-is
+    to each dataset. The pretraining corpus may include GIFT-Eval train splits.
+  - `zero-shot`: A specific version of pretrained models whose pretraining data has no
+    common datasets with GiftEval data pool (both train and test).
+  - `fine-tuned`: Models that start from a completed pretrained checkpoint and undergo a
+    further training stage using GIFT-Eval train/validation data. This covers both
+    per-dataset fine-tuning (a separate training job and set of weights for each of the
+    97 tasks) and continual pretraining (a single additional training run whose data mix
+    includes GIFT-Eval train splits, producing one checkpoint applied to all tasks).
+
+  > **Note:** The key difference between `pretrained` and `fine-tuned` is the presence of a
+  > separate training stage with GIFT-Eval train/validation data on top of an already-complete base checkpoint. A model whose
+  > single pretraining run happens to include GIFT-Eval train data is `pretrained`; a model
+  > that takes a finished checkpoint and trains it further on GIFT-Eval data is `fine-tuned`.
 
   > **Note:** For a model to be tagged as `zero-shot` it should satisfy two requirements:
   >  1.  Do not leak test data, and
@@ -184,7 +193,26 @@ Submit your results to the leaderboard by creating a pull request that adds your
 - **`replication_code_available`**:
   Indicates whether the evaluation code is made available to the public by the submission author. The preferable way to share the evaluation code is to share a notebook in the GIFT-Eval github repository (as many previous submissions have done), but a standalone repo for the evaluation code is also acceptable as long as it is accessible to the public and the link is provided in the config.json file through `code_link`.
 
-The final `all_results.csv` file should contain `98` lines (one for each dataset configuration) and `15` columns: `4` for dataset, model, domain and num_variates and `11` for the evaluation metrics.
+The final `all_results.csv` file should contain `98` lines (`1` header and `97`
+dataset configurations) and exactly `15` columns: `4` for dataset, model, domain
+and num_variates and `11` for the evaluation metrics.
+
+Before opening a pull request, validate your submission from the repository root:
+
+```bash
+python scripts/validate_results.py results/<YOUR_MODEL_NAME>
+```
+
+Maintainers can validate every committed submission with:
+
+```bash
+pytest -q tests/test_validate_results.py
+```
+
+The validator checks the required files and config fields, documented config
+labels, CSV shape and columns, the complete set of dataset configurations and
+their domain/num_variates metadata, present metric values, and that
+`<YOUR_MODEL_NAME>` matches the model in `config.json` and every CSV row.
 
 ## Time Series Features Analysis
 

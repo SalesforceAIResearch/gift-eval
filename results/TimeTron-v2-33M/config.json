@@ -1,0 +1,9 @@
+{
+  "model": "TimeTron-v2-33M",
+  "model_type": "pretrained",
+  "model_dtype": "float32",
+  "model_link": "https://huggingface.co/CorteriIntelligence/TimeTron-v2-33M",
+  "org": "Corteri Intelligence",
+  "testdata_leakage": "Yes",
+  "replication_code_available": "No"
+}

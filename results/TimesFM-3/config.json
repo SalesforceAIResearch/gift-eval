@@ -1,0 +1,10 @@
+{
+    "model": "TimesFM-3",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/google/timesfm-3.0-pytorch",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/timesfm3.ipynb",
+    "org": "Google Research",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}

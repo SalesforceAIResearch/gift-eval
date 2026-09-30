@@ -1,0 +1,10 @@
+{
+    "model": "Lingjiang2.0",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "",
+    "code_link": "",
+    "org": "Alibaba Cloud",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}

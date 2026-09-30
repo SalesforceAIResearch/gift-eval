@@ -1,0 +1,9 @@
+{
+    "model": "STRIDE w/ Synapse",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "https://arxiv.org/pdf/2605.08625",
+    "org": "Google Cloud AI Research",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}

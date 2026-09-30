@@ -1,0 +1,10 @@
+{
+    "model": "tafsut",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/Tafsut-FM/tafsut-univariate-base",
+    "code_link": "",
+    "org": "Tafsut-FM (Huawei GTS x EURECOM)",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}

@@ -1,0 +1,10 @@
+{
+    "model": "ForecastMate",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "",
+    "code_link": "",
+    "org": "Zhejiang University",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}

@@ -1,0 +1,10 @@
+{
+  "model": "recursive-moirai-2",
+  "model_type": "pretrained",
+  "model_dtype": "float32",
+  "model_link": "https://huggingface.co/emiliocantuc/recursive-moirai-2",
+  "code_link": "https://github.com/ecntu/recursive-tsfm/tree/ceb9e54fdaead0c0f4ef92a4eb6d9eb86782e18e",
+  "org": "Emilio Cantu",
+  "testdata_leakage": "No",
+  "replication_code_available": "Yes"
+}

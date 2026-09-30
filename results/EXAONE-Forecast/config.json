@@ -1,0 +1,10 @@
+{
+    "model": "EXAONE-Forecast",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "",
+    "code_link": "",
+    "org": "LG AI Research",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
