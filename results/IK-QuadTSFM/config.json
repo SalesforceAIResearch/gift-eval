@@ -1,0 +1,10 @@
+{
+    "model": "IK-QuadTSFM",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "https://github.com/IndarKarhana/ik-quadtsfm/blob/7edf3573d019fbe2133f637b532bb7b7fd8cb123/MODEL_CARD.md",
+    "code_link": "https://github.com/IndarKarhana/ik-quadtsfm/tree/7edf3573d019fbe2133f637b532bb7b7fd8cb123",
+    "org": "Independent Research",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
