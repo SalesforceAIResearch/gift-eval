@@ -1,0 +1,10 @@
+{
+  "model": "OpenTSLM-TeeMoE",
+  "model_type": "agentic",
+  "model_dtype": "bfloat16",
+  "model_link": "https://huggingface.co/OpenTSLM/TeeMoE",
+  "code_link": "https://github.com/OpenTSLM/OpenTSLM-TeeMoE#gift-eval",
+  "org": "OpenTSLM",
+  "testdata_leakage": "No",
+  "replication_code_available": "Yes"
+}
