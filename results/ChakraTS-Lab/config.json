@@ -1,0 +1,10 @@
+{
+    "model": "ChakraTS-Lab",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/yhatlabs/ChakraTS-Lab",
+    "code_link": "",
+    "org": "YHat Labs",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
