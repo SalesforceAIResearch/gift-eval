@@ -1,0 +1,10 @@
+{
+    "model": "Granite-timeseries-ensemble-r1-probabilistic",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/ibm-granite/granite-timeseries-ensemble-r1",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/granite-timeseries-ensemble-r1-probabilistic.ipynb",
+    "org": "IBM TSFM",
+    "replication_code_available": "Yes",
+    "testdata_leakage": "No"
+}
