@@ -1,0 +1,10 @@
+{
+    "model": "Yug",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/birlaailabs/yug",
+    "code_link": "https://github.com/birla-ai-labs/yug",
+    "org": "Birla AI Labs",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
