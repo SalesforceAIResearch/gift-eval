@@ -6,5 +6,5 @@
     "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/ChakraTS.ipynb",
     "org": "YHat Labs",
     "testdata_leakage": "No",
-    "replication_code_available": "Yes"
+    "replication_code_available": "No"
 }
