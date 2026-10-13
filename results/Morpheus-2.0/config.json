@@ -1,0 +1,10 @@
+{
+    "model": "Morpheus-2.0",
+    "model_type": "pretrained",
+    "model_dtype": "bfloat16",
+    "model_link": "",
+    "code_link": "",
+    "org": "JP Morgan Chase",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
