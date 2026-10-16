@@ -1,0 +1,10 @@
+{
+  "model": "PERSONA-AI-T4",
+  "model_type": "agentic",
+  "model_dtype": "float32",
+  "model_link": "",
+  "code_link": "",
+  "org": "PERSONA AI",
+  "testdata_leakage": "No",
+  "replication_code_available": "No"
+}
