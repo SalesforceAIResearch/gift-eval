@@ -1,0 +1,10 @@
+{
+    "model": "Timestral-28M",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/mistralai/Timestral-28M",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/timestral.ipynb",
+    "org": "Mistral AI",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
