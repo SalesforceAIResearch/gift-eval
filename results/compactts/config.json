@@ -1,0 +1,10 @@
+{
+    "model": "compactts",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "Antigravity Research",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes",
+    "code_link": "https://github.com/DakshBhalala/AMBACAST",
+    "model_link": "https://github.com/DakshBhalala/AMBACAST"
+}
