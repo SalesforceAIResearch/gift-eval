@@ -1,0 +1,10 @@
+{
+    "model": "TimeH2O-v1",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/h2oai/timeh2o-v1",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/timeh2o.ipynb",
+    "org": "H2O.ai",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
