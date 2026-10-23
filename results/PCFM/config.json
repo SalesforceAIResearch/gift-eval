@@ -1,0 +1,10 @@
+{
+    "model": "PCFM",
+    "model_type": "pretrained",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/software-competence-center-hagenberg/PCFM",
+    "code_link": "https://github.com/software-competence-center-hagenberg/PCFM/blob/main/gifteval.ipynb",
+    "org": "Software Competence Center Hagenberg",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
