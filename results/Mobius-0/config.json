@@ -1,0 +1,10 @@
+{
+    "model": "Mobius-0",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "",
+    "code_link": "",
+    "org": "Central South University",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
