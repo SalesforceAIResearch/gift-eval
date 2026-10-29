@@ -7,5 +7,5 @@
     "replication_code_available": "Yes",
     "code_link": "https://github.com/DakshBhalala/AMBACAST",
     "model_link": "https://huggingface.co/BhalalaDaksh/CompactTS-Agent",
-    "description": "CompactTS-Agent: Autonomous Agentic Meta-Forecaster routing across open-source foundation model backbones (Chronos-2, TimesFM-3, Toto-2.0) via structural series profiling."
+    "description": "CompactTS-Agent: Autonomous Agentic Meta-Forecaster combining scale-invariant spectral entropy, distribution drift, and volatility clustering with calibrated quantile projections."
 }
