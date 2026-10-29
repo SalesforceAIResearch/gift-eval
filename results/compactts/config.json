@@ -5,6 +5,6 @@
     "org": "Antigravity Research",
     "testdata_leakage": "No",
     "replication_code_available": "Yes",
-    "code_link": "https://github.com/DakshBhalala/AMBACAST",
-    "model_link": "https://github.com/DakshBhalala/AMBACAST"
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/compactts.ipynb",
+    "model_link": "https://huggingface.co/BhalalaDaksh/CompactTS-MoE"
 }
