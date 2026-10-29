@@ -1,0 +1,11 @@
+{
+    "model": "CompactTS-Agent",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "Daksh Bhalala",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes",
+    "code_link": "https://github.com/DakshBhalala/AMBACAST",
+    "model_link": "https://huggingface.co/BhalalaDaksh/CompactTS-Agent",
+    "description": "CompactTS-Agent: Autonomous Agentic Meta-Forecaster routing across open-source foundation model backbones (Chronos-2, TimesFM-3, Toto-2.0) via structural series profiling."
+}
