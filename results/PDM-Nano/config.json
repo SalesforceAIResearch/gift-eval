@@ -1,0 +1,8 @@
+{
+  "model": "PDM-Nano",
+  "model_type": "zero-shot",
+  "model_link": "https://www.flashmind.com/models/pdm#pdm-nano",
+  "org": "Flashmind UAE",
+  "testdata_leakage": "No",
+  "replication_code_available": "Yes"
+}

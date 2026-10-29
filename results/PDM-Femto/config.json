@@ -1,0 +1,8 @@
+{
+  "model": "PDM-Femto",
+  "model_type": "zero-shot",
+  "model_link": "https://www.flashmind.com/models/pdm#pdm-femto",
+  "org": "Flashmind UAE",
+  "testdata_leakage": "No",
+  "replication_code_available": "Yes"
+}
