@@ -4,7 +4,7 @@
     "model_dtype": "float32",
     "org": "Daksh Bhalala",
     "testdata_leakage": "No",
-    "replication_code_available": "Yes",
+    "replication_code_available": "No",
     "code_link": "https://github.com/DakshBhalala/CompactTS-Agent",
     "model_link": "https://huggingface.co/BhalalaDaksh/CompactTS-Agent",
     "description": "CompactTS-Agent: Autonomous Agentic Meta-Forecaster combining scale-invariant spectral entropy, distribution drift, and volatility clustering with calibrated quantile projections."
