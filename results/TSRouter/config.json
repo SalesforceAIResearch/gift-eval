@@ -1,5 +1,5 @@
 {
-  "model": "TSRouter-v1",
+  "model": "TSRouter",
   "model_type": "agentic",
   "model_dtype": "float32",
   "model_link": "",
