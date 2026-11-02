@@ -1,0 +1,8 @@
+{
+    "model": "KRAE-RouterFusion-v6d",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "org": "KRAE-CA",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
