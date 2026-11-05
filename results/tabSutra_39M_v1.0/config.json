@@ -1,0 +1,9 @@
+{
+    "model": "tabSutra_39M_v1.0",
+    "model_type": "zero-shot",
+    "model_dtype": "bfloat16",
+    "model_link": "https://huggingface.co/tabsutra/tabSutra_39M_v1.0",
+    "org": "tabSutra",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
