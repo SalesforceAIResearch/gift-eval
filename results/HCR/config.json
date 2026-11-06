@@ -1,5 +1,5 @@
 {
-    "model": "HistRoute-CV",
+    "model": "HCR",
     "model_type": "agentic",
     "model_dtype": "float32",
     "org": "Hitsz iLearn-ML",
