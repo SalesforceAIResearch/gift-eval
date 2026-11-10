@@ -19,6 +19,10 @@ GIFT-Eval is a comprehensive benchmark designed to evaluate general time series 
 
 To facilitate the effective pretraining and evaluation of foundation models, we also provide a non-leaking pretraining dataset --> [GiftEvalPretrain](https://huggingface.co/datasets/Salesforce/GiftEvalPretrain).
 
+## Announcements
+
+- Check out [GIFT-Eval-CTX](https://huggingface.co/spaces/Salesforce/GIFT-Eval-CTX), our new benchmark for contextual forecasting, which evaluates whether models can turn verified forward-looking information—such as planned events, external conditions, and expert expectations—into more accurate numerical forecasts.
+
 ## Update Log
 
 ### 2025-10-17
