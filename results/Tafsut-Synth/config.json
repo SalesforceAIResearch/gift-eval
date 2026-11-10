@@ -1,0 +1,10 @@
+{
+  "model": "Tafsut-Synth",
+  "model_type": "zero-shot",
+  "model_dtype": "float32",
+  "model_link": "https://github.com/tareq-si-salem/gift-eval/blob/5fbcae7c831e3ea266b45cc8531685fc8bc82093/tafsut-synth-model-card.md",
+  "code_link": "",
+  "org": "Tafsut-FM (Huawei GTS x EURECOM)",
+  "testdata_leakage": "No",
+  "replication_code_available": "No"
+}
