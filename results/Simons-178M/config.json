@@ -1,0 +1,10 @@
+{
+    "model": "Simons-178M",
+    "model_type": "zero-shot",
+    "model_dtype": "bfloat16",
+    "model_link": "https://huggingface.co/abel-lab/Simons-178M",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/simons.ipynb",
+    "org": "Abel AI Lab",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
