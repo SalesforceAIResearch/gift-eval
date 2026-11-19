@@ -1,0 +1,10 @@
+{
+    "model": "Albert",
+    "model_type": "agentic",
+    "model_dtype": "float32",
+    "model_link": "None",
+    "code_link": "None",
+    "org": "Harbin Institute of Technology, Shenzhen",
+    "testdata_leakage": "No",
+    "replication_code_available": "No"
+}
