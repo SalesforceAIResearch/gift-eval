@@ -1,0 +1,18 @@
+{
+  "model": "Nring",
+  "model_type": "deep-learning",
+  "model_dtype": "float32",
+  "testdata_leakage": "No",
+  "replication_code_available": "No",
+  "seeds": [
+    2025,
+    2026,
+    2027
+  ],
+  "n_seeds": 3,
+  "aggregation": "Arithmetic mean of each task metric over three independent seeds; sample standard deviations retained separately.",
+  "forecast_distribution": "Deterministic point forecasts scored independently for each seed; all quantiles equal the point forecast.",
+  "protocol": "Each task and seed trained from the official training prefix. Backbone and frozen-backbone calibration each use up to 10 sampled epochs, patience 3; validation-MAE checkpoint selection.",
+  "official_code_commit": "0b57dd6937eb9a69a3ae771f73ab36188bb33e47",
+  "dataset_revision": "30841734ac5cfddbd0c3bad6d09d2b6b32becbb0"
+}
