@@ -1,0 +1,10 @@
+{
+    "model": "TimeSSM-10M",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/IUseAMouse/timessm-10m",
+    "code_link": "https://github.com/IUseAMouse/TimeSSM",
+    "org": "Yvann Vincent",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
