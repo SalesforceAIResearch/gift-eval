@@ -1,5 +1,5 @@
 {
-    "model": "Mobius-0",
+    "model": "Mobius-0.5",
     "model_type": "zero-shot",
     "model_dtype": "float32",
     "model_link": "",
