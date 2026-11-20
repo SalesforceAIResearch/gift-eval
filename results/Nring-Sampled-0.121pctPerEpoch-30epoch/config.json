@@ -6,17 +6,5 @@
   "code_link": "",
   "org": "Say Hello 2 Reviewer qGbp",
   "testdata_leakage": "No",
-  "replication_code_available": "No",
-  "seed": 2025,
-  "n_seeds": 1,
-  "protocol": "N-ring raw-history backbone with horizon_calib; both stages trained from scratch, backbone first then frozen-backbone calibration; at most 30 sampled epochs per stage; patience 3; validation-MAE checkpoint selection.",
-  "context_policy": "720 for all 42 medium/long tasks; for 55 short tasks, largest of 192/96/48/24 no greater than median training-series length, with a floor of 24. Official forecast horizons and rolling test instances retained.",
-  "sampling": "Series-balanced random training origins; every eligible series sampled each epoch; at least 50 batches of effective size 64.",
-  "sampling_percentage_per_epoch": 0.12098515316067661,
-  "sampled_windows_per_epoch_all_tasks": 425792,
-  "eligible_windows_all_tasks": 351937398,
-  "sampling_percentage_definition": "Sum of sampled training-window draws in one epoch across 97 tasks divided by sum of eligible training windows across those tasks. Rounded to 0.121% in the model name; task-specific fractions differ and windows can repeat. This is not unique-data coverage over the full run.",
-  "forecast_distribution": "Deterministic point forecast represented as a point mass; all quantiles equal the point prediction.",
-  "official_code_commit": "0b57dd6937eb9a69a3ae771f73ab36188bb33e47",
-  "dataset_revision": "30841734ac5cfddbd0c3bad6d09d2b6b32becbb0"
+  "replication_code_available": "No"
 }
