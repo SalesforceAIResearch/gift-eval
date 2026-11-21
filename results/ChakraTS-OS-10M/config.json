@@ -1,0 +1,10 @@
+{
+    "model": "ChakraTS-OS-10M",
+    "model_type": "zero-shot",
+    "model_dtype": "bfloat16",
+    "model_link": "https://huggingface.co/yhatlabs/ChakraTS-OS-10M",
+    "code_link": "https://github.com/SalesforceAIResearch/gift-eval/blob/main/notebooks/ChakraTS-OS-10M.ipynb",
+    "org": "YHat Labs",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
