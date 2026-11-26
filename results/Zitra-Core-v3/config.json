@@ -1,0 +1,10 @@
+{
+    "model": "Zitra-Core-v3",
+    "model_type": "pretrained",
+    "model_dtype": "bfloat16",
+    "model_link": "https://huggingface.co/tomcupr/Zitra-Core-v3",
+    "code_link": "https://github.com/tomascupr/zitra-forecast/blob/main/leaderboard-prs/gift-eval/notebooks/gift_eval.py",
+    "org": "Zitra",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
