@@ -1,0 +1,10 @@
+{
+    "model": "Zitra-209M-v2",
+    "model_type": "zero-shot",
+    "model_dtype": "float32",
+    "model_link": "https://huggingface.co/tomcupr/Zitra-209M-v2",
+    "code_link": "https://github.com/tomascupr/zitra-forecast/blob/main/leaderboard-prs/gift-eval/notebooks/gift_eval.py",
+    "org": "Zitra",
+    "testdata_leakage": "No",
+    "replication_code_available": "Yes"
+}
